@@ -12,6 +12,7 @@ The Placement Portal is a comprehensive web application designed to streamline t
 
 ## Key Features
 ### Admin Portal
+- User(student) management allowing the admin to edit or delete the students
 - Adding and creating student profiles
 - Job Posting Management including setting and defining the eligibility criteria for applying
 - Generation of excel reports to view applied students
@@ -24,8 +25,11 @@ The Placement Portal is a comprehensive web application designed to streamline t
 - Viewing posted blogs(searchable by company)
 - Can view test dates as mentioned by the admin
 ### RBAC Features
+- User management which involves creating, modifying and deleting student profiles.
 - No student can register themselves. Only the admin has the permission to add students and set their passwords to prevent outside college students from registering themselves.
-- Admin has the permission to add and delete companies as well as set the criteria such as cgpa and graduating year for applying. Students not meeting the criteria will not be able to apply for that particular job.
+- Admin has the permission to add and delete companies and roles as well as set the criteria such as cgpa and graduating year for applying. Students not meeting the criteria will not be permitted to apply for that particular job.
+- Admin has the permission to delete role profiles as required.
+- All the permissions and features are now clearly displayed using icons or titles for the users to easily navigate across the portal.
 - Admin can generate excel reports containing all the deatils of the studetns along with their resumes for each company. Multer and Cloudinary for resume storing.
 - Integrated real-time mail notifications to keep students updated on any new job postings using nodemailer library.
 - If the registration data would cross then, students would not be able to apply for that company.
