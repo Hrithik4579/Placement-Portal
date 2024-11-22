@@ -53,4 +53,7 @@ The Placement Portal is a comprehensive web application designed to streamline t
 - enroll: 21103222
 - password: test123
 
+## Demo Video
+
+https://drive.google.com/file/d/1foJG5S4QD_JDdq0zcaheM56ZNzmzOsSE/view?usp=sharing
 
